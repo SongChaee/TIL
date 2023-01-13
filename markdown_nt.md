@@ -162,6 +162,9 @@ class Simple{
 
 ## git 계정 설정 시 최초 1회
 
+- github은 전역으로 관리 `--global` : 최초 1회
+- gitlab은 지역으로 관리 `--local` : 레포 만들 때마다 최초 1회
+
 `git config --global user.email '[내 github email]'`
 
 ​	: 내 로컬 컴퓨터 전역에 github email 설정
